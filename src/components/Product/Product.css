@@ -1,0 +1,12 @@
+.product-img{
+    height: 200px;
+    width: 100%;
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+.origin-flag{
+    width: 25px;
+    margin-left: 10px;
+}
+.card-color{
+    background-color: rgb(230, 230, 230);
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "id":1,
+    "name":"Rafale",
+    "img":"https://economictimes.indiatimes.com/thumb/msid-77244360,width-1200,height-900,resizemode-4,imgsize-897472/rafale_reuters.jpg?from=mdr",
+    "price":120000000,
+    "role":"Fighter Jet",
+    "origin":"France",
+    "originFlag":"https://i.ibb.co/g3CwMhx/france.png",
+    "status":"In-Service"
+  },
+  {
+    "id":2,
+    "name":"Grob 120pt",
+    "img":"http://www.euroasianaviation.com/wp-content/uploads/2019/11/startgalerie_1-56f1f552.jpg",
+    "price":1000000,
+    "role":"Fighter Jet Trainer",
+    "origin":"Germany",
+    "originFlag":"https://i.ibb.co/86d7PQb/germany.png",
+    "status":"In-Service"
+  },
+  {
+    "id":3,
+    "name":"Airbus A400",
+    "img":"https://3.bp.blogspot.com/-mu_5e9wp3nE/TioMG2loRjI/AAAAAAAAGAE/tjgtKhD_OMY/s1600/airbus_a400m_military_aircraft_4812764_aircraft-wallpaper.jpg",
+    "price":23000000,
+    "role":"Military Tranport Aircraft",
+    "origin":"France",
+    "originFlag":"https://i.ibb.co/g3CwMhx/france.png",
+    "status":"In-Service"
+  },
+  {
+    "id":4,
+    "name":"CH-47 Chinook",
+    "img":"https://honeywell.scene7.com/is/image/honeywell/AeroBT-CH-47_2_Chinook_Banner_Honeywell-2880x1440",
+    "price":1200000,
+    "role":"Military Transport Helicopter",
+    "origin":"USA",
+    "originFlag":"https://i.ibb.co/HxT36q7/usa.png",
+    "status":"In-Service"
+  },
+  {
+    "id":5,
+    "name":"AH-64",
+    "img":"https://militaryanalizer.com/wp-content/uploads/2020/11/000213_ah64_apache.jpg",
+    "price":10000000,
+    "role":"Attack Helicopter",
+    "origin":"USA",
+    "originFlag":"https://i.ibb.co/HxT36q7/usa.png",
+    "status":"In-Service"
+  },
+  {
+    "id":6,
+    "name":"m1a2",
+    "img":"https://external-preview.redd.it/9guhxyBox-WQzDn3SOQXqFRpMmRlMHNtEvSKCCNQBH0.jpg?auto=webp&s=d31fe8d5fe227266b06bcc4774fd5ef717003d3d",
+    "price":2400000,
+    "role":"Main Battle Tank",
+    "origin":"USA",
+    "originFlag":"https://i.ibb.co/HxT36q7/usa.png",
+    "status":"In-Service"
+  },
+  {
+    "id":7,
+    "name":"Tos 1a",
+    "img":"https://orientalreview.org/wp-content/uploads/2015/02/TYaZhELAYa-OGNEMETNAYa-SISTEMA-TOS1A-SOLNCEPEK.jpg",
+    "price":1300000,
+    "role":"Multiple Rocket Launcher",
+    "origin":"Russia",
+    "originFlag":"https://i.ibb.co/TRSntBs/russia.png",
+    "status":"In-Service"
+  },
+  {
+    "id":8,
+    "name":"DDG 101",
+    "img":"https://upload.wikimedia.org/wikipedia/commons/1/11/USS_Gridley_%28DDG_101%29_transits_the_Atlantic_Ocean._%2848636129871%29_%28cropped%29.jpg",
+    "price":220000000,
+    "role":"Destroyer Ship",
+    "origin":"USA",
+    "originFlag":"https://i.ibb.co/HxT36q7/usa.png",
+    "status":"In-Service"
+  },
+  {
+    "id":9,
+    "name":"Ming Class Submarine",
+    "img":"https://iadsb.tmgrup.com.tr/d4ecf6/1200/627/0/144/1000/666?u=https://idsb.tmgrup.com.tr/2019/12/13/1576250053032.jpg",
+    "price":320000000,
+    "role":"Quietest Disel Electric Submarine",
+    "origin":"China",
+    "originFlag":"https://i.ibb.co/WK1pWQ4/china.png",
+    "status":"In-Service"
+  },
+  {
+    "id":10,
+    "name":"CANiK M2 QCB",
+    "img":"https://www.savunmahaber.com/en/wp-content/uploads/2021/07/SYS-Canik-M2-QCB-heavy-machine-gun-serial-production-export-5-1024x785.jpg",
+    "price":6600,
+    "role":"Heavy Machine Gun",
+    "origin":"Turkey",
+    "originFlag":"https://i.ibb.co/4P3DT22/turkey.pngs",
+    "status":"In-Service"
+  },
+  {
+    "id":11,
+    "name":"M4 Carbine",
+    "img":"http://rentaka.weebly.com/uploads/2/4/8/9/24892575/6096039_orig.jpg",
+    "price":700,
+    "role":"Primary Infantry Weapon",
+    "origin":"USA",
+    "originFlag":"https://i.ibb.co/HxT36q7/usa.png",
+    "status":"In-Service"
+  }
+]
