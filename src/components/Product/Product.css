@@ -1,12 +1,15 @@
+/* card custom styles  */
+.card-custom-css{
+    background-color: rgb(230, 230, 230);
+}
+/* product image styles   */
 .product-img{
     height: 200px;
     width: 100%;
     border-bottom: 1px solid rgb(223, 223, 223);
 }
+/* card country flag styles  */
 .origin-flag{
     width: 25px;
     margin-left: 10px;
-}
-.card-custom-css{
-    background-color: rgb(230, 230, 230);
 }

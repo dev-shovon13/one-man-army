@@ -4,10 +4,12 @@ import Header from '../Header/Header';
 import './Shop.css'
 
 const Shop = () => {
+    // set data into UI 
     const [products, setProducts] = useState([])
     const [order, setOrder] = useState([])
     const [searchProducts, setSearchProducts] = useState([])
 
+    // load data 
     useEffect(() => {
         fetch('./data.json')
             .then(res => res.json())
@@ -16,29 +18,33 @@ const Shop = () => {
                 setSearchProducts(data)
             })
     }, [])
+    // search equipment
     const searchProduct = (event) => {
         const searchText = event.target.value
         console.log(searchText);
         const matchedProducts = products.filter(product => product.name.toLowerCase().includes(searchText.toLowerCase()))
         setSearchProducts(matchedProducts)
     }
+    // add items to added list 
     const orderProduct = product => {
-        // const newList = [...order, product]
-        // setOrder(newList);
         if ([...order].indexOf(product) === -1) {
             const newList = [...order, product]
             setOrder(newList);
         }
     }
+    // total price calculation 
     let total = 0
     for (const item of order) {
         total = total + item.price
     }
     return (
         <div>
+            {/* loading Header component from another file  */}
             <Header searchProduct={searchProduct} />
+            {/* product section  */}
             <div className=" product-section">
                 <div className="container row mx-auto ">
+                    {/* showing equipments  */}
                     <div className="row g-4 mt-1 col-9 col-md-10 col-lg-11">
                         {
                             searchProducts.map(product => {
@@ -48,6 +54,7 @@ const Shop = () => {
                             })
                         }
                     </div>
+                    {/* showing orderwd items  */}
                     <div className=" sidenav col-4 col-md-3 col-lg-2 bg-light text-secondary  border border-light shadow-sm order-item">
                         <div className="bg-secondary text-white p-2 rounded ">
                             <h5><small>Total Orders: </small><span className="text-primary bg-light px-2 rounded fw-bold">{order.length}</span> </h5>

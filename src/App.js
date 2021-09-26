@@ -5,9 +5,9 @@ import Shop from './components/Shop/Shop';
 
 function App() {
   return (
-    <div className="App">
+    <div div className="App" >
       <Shop />
-    </div>
+    </div >
   );
 }
 

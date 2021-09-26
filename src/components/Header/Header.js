@@ -5,7 +5,9 @@ import './Header.css'
 
 const Header = (props) => {
     return (
+        // header section 
         <div className="header-section">
+            {/* navbar  */}
             <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <div className="container">
                     <img src={logo} alt="logo" className="bg-secondary rounded p-1" />
@@ -33,6 +35,7 @@ const Header = (props) => {
                     </div>
                 </div>
             </nav>
+            {/* loading total budget section as Component */}
             <Budget />
         </div>
     );
