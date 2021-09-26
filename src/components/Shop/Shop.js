@@ -58,7 +58,7 @@ const Shop = () => {
                             order.map(item => {
                                 return (
                                     <div key={item.id} className="d-flex mb-2 align-items-center">
-                                        <img src={item.img} alt="" className="" />
+                                        <img src={item.img} alt="" className="w-25" />
                                         <p className="bg-secondary text-white fw-bold border rounded p-1 mb-1 text-center">{item.name}</p>
                                     </div>
                                 )
