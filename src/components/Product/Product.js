@@ -11,7 +11,7 @@ const Product = (props) => {
         // product Component 
         <div className="col-12 col-md-6 col-lg-4">
             <div className="card h-100 card-custom-css">
-                <img src={img} className="product-img" alt="..." />
+                <img src={img} className="product-img" alt="product" />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     <p className="text-danger"><span className="text-secondary fw-bold">Role: </span>{role}</p>
