@@ -1,3 +1,3 @@
 # One Man ARMY
 
-This project was bootstrapped with [Create React App](https://one-man-army.netlify.app/).
+Project Link: [One Man ARMY](https://one-man-army.netlify.app/).
